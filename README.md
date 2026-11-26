@@ -1,8 +1,30 @@
 # Playable Portfolio
 
-A portfolio website you can **play**. It's a retro side-scrolling platformer where visitors run, jump, hit blocks and open treasure chests to discover who you are, what you can do and what you've built.
+### 🎮 Live at: **[aquib9911.github.io/playable-portfolio](https://aquib9911.github.io/playable-portfolio/)**
 
-Everything is in a single `index.html` file. There's no build step, no framework and no dependencies (apart from two Google Fonts).
+---
+
+## Introduction
+
+Most portfolios are a page you scroll. This one is a **game you play**.
+
+Playable Portfolio is a retro side-scrolling platformer built for the web. Visitors control a small pixel-art character and run through a level that *is* the portfolio: jumping into blocks reveals skills, opening treasure chests shows projects, climbing steps raises flags for each job, and hopping into a rocket at the end opens the contact card.
+
+It's made to be memorable for recruiters and clients while staying practical:
+
+- **Works everywhere:** keyboard on desktop, on-screen buttons on phones and tablets.
+- **Classic view included:** one click turns the game into a normal, readable page (also great for screen readers).
+- **Easy to edit:** all your details live in one block of text at the top of the code, and the level builds itself from it.
+- **Zero setup:** a single HTML file, with no build step, framework or install.
+
+---
+
+## Files in this repository
+
+| File | What it is |
+| --- | --- |
+| [`index.html`](index.html) | The whole website and game: the HTML, the styles, the game code and your portfolio details (the `PORTFOLIO` block near the top of the `<script>`). This is the only file you need to edit. |
+| [`README.md`](README.md) | This guide: the live link, an introduction, controls, and instructions for editing and hosting. |
 
 ---
 
@@ -103,6 +125,8 @@ Then visit <http://localhost:8000>.
 ---
 
 ## Put it online for free with GitHub Pages
+
+> This repository is already published at **https://aquib9911.github.io/playable-portfolio/**. The steps below are for setting it up again or in a copy of this repository.
 
 1. Open this repository on GitHub.
 2. Go to **Settings → Pages**.
